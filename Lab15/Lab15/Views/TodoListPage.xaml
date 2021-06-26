@@ -17,13 +17,12 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <StackLayout Padding="20,0,0,0"
-                                 HorizontalOptions="StartAndExpand"
-                                 Orientation="Horizontal">
-                        <Label Text="{Binding Name}"
-                               VerticalTextAlignment="Center"/>
-                        <Image Source="check.png"
-                               IsVisible="{Binding Done}"/>
+                    <StackLayout Padding="20,0,20,0"
+                                     VerticalOptions="StartAndExpand"
+                                     Orientation="Vertical">
+                        <Label Text="{Binding ubication}"
+                                VerticalTextAlignment="Center"/>
+                        <Label Text="{Binding createDate}" />
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

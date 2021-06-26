@@ -7,6 +7,6 @@ namespace Lab15
     public static class Constants
     {
         // URL
-        public static string RestUrl = "http://colegioquimico-001-site6.dtempurl.com/api/todoitems/{0}";
+        public static string RestUrl = "http://ec2-3-83-47-165.compute-1.amazonaws.com:8080/hospitalserver-0.0.1/api/{0}";
     }
 }

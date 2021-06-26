@@ -28,10 +28,7 @@ namespace Lab15.Views
         {
             await Navigation.PushAsync(new TodoItemPage(true)
             {
-                BindingContext = new TodoItem
-                {
-                    ID = Guid.NewGuid().ToString()
-                }
+                BindingContext = new TodoItem{ }
             });
         }
 

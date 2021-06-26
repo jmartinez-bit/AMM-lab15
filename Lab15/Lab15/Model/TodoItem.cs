@@ -6,9 +6,10 @@ namespace Lab15.Model
 {
     public class TodoItem
     {
-        public string ID { get; set; }
-        public string Name { get; set; }
-        public string Notes { get; set; }
-        public bool Done { get; set; }
+        public string id { get; set; }
+        public string ubication { get; set; }
+        public string telephone { get; set; }
+        public int specializationQuantity { get; set; }
+        public DateTime createDate { get; set; }
     }
 }

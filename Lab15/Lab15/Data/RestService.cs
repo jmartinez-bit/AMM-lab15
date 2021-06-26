@@ -85,7 +85,7 @@ namespace Lab15.Data
                 }
                 else
                 {
-                    var uri = new Uri(string.Format(Constants.RestUrl, "Edit"));
+                    var uri = new Uri(string.Format(Constants.RestUrl, "Update"));
                     response = await client.PutAsync(uri, content);
                 }
                 
